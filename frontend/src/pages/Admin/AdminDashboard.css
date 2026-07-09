@@ -1,0 +1,90 @@
+.admin-dashboard {
+    padding: 30px;
+}
+
+.admin-dashboard h1 {
+    color: #1976d2;
+    margin-bottom: 25px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
+}
+
+.card h2 {
+    font-size: 40px;
+}
+
+.card h3 {
+    color: #1976d2;
+}
+
+.requests {
+    margin-top: 40px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.requests table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.requests th,
+.requests td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+.requests th {
+    background: #1976d2;
+    color: white;
+}
+
+.approve {
+    background: green;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.reject {
+    background: red;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.admin-dashboard {
+    padding: 20px;
+}
+
+.admin-header {
+    margin-bottom: 30px;
+}
+
+.admin-header h1 {
+    color: #1976d2;
+}
+
+.admin-cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}

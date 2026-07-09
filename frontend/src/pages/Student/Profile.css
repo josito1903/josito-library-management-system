@@ -1,0 +1,41 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.profile-card {
+    width: 400px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.profile-info p {
+    margin: 10px 0;
+}
+
+.edit-btn {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #1976d2;
+    color: white;
+}

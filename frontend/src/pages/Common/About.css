@@ -1,0 +1,33 @@
+.about-container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .1);
+}
+
+.about-container h1 {
+    color: #1976d2;
+    margin-bottom: 20px;
+}
+
+.about-container h2 {
+    margin-top: 25px;
+    color: #333;
+}
+
+.about-container p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.about-container ul {
+    margin-top: 15px;
+    padding-left: 25px;
+}
+
+.about-container li {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
